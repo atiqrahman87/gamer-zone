@@ -1,25 +1,47 @@
+/*Style of Work Sans font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
-/*Styles for the navigation section*/
-header{
-    width:100%;
-}
-.navigation{
-    display:flex;
-    justify-content:space-between;
-    border:2px solid green;
-    margin:10px auto;
-    align-items:center;
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.navigation-left{
-display:flex;
-justify-content:space-around;
-align-items:center;
-border:2px solid red;
-width:250px;
-height:40px;
+
+/*Styles for the navigation section in header*/
+header {
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
-.navigation-right{
-    display:flex;
-    justify-content:space-around;
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid green;
+    margin: auto;
+    align-items: center;
+}
+
+.navigation-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid red;
+    width: 225px;
+    height: 35px;
+}
+
+.navigation-right {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid green;
+    width: 375px;
+    align-items: center;
+}
+
+.navigation-button {
+    color: #3C354F;
+    font-size: 1em;
+    font-weight: 500;
+    height:35px;
 }
