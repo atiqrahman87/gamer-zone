@@ -59,16 +59,17 @@ header {
     color: #08FFF9;
 }
 
-/*style for the first section inside the main*/
+/*style for the banner section inside the main*/
 
 .banner {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: 20px auto;
     align-items: center;
     border: 2px solid red;
-    
+
 }
+
 .banner-left-text-para {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -87,31 +88,32 @@ header {
     font-size: 2.5em;
     font-weight: 600;
 }
-.banner-left-button{
-    display:flex;
-    gap:20px;
-}
-.button{
-    font-size:1em;
-    color: #FFF;    
-    font-weight: 600;
-    border-radius:40px;
-    padding:10px 20px;
-    border:none;
-    
-    
-}
-.button-one{
-    
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%)); 
-    width:110px;
-    height:50px;
+
+.banner-left-button {
+    display: flex;
+    gap: 20px;
 }
 
-.button-two{
-background: #4EC5F7;
-width:128px;
-height:50px;
+.button {
+    font-size:1em;
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.button-one {
+
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    width: 110px;
+    height: 50px;
+}
+
+.button-two {
+    background: #4EC5F7;
+    width: 128px;
+    height: 50px;
 }
 
 
@@ -124,7 +126,6 @@ height:50px;
 
     .navigation {
         flex-direction: column;
-        gap: 40px;
         padding-top: 20px;
 
     }
@@ -132,4 +133,82 @@ height:50px;
     .navigation-right {
         flex-direction: column;
     }
+
+    /*style for the banner section*/
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    #banner-right-image {
+        height: 300px;
+    }
+
+
+    .banner-left {
+        margin-top: 20px;
+        padding: 10px;
+        background-image: url("./images/Group\ 14.png")
+    }
+
+    .banner-left-text-heading {
+        font-size: 1.8em;
+
+    }
+
+    .banner-left-button {
+        gap: 10px;
+    }
+
+
+    .button-one {
+        width: 110px;
+        height: 40px;
+    }
+
+    .button-two {
+        width: 128px;
+        height: 40px;
+    }
+
+    .banner-left-text-para {
+        font-size: 2.8em;
+        font-weight: 700;
+    }
 }
+
+
+/*style for the mobile device with a maximum width of 425px*/
+/*style for the banner section*/
+@media screen and (min-width:426px) and (max-width:768px) {
+    .banner {
+        padding-bottom: 5px;
+    }
+
+    #banner-right-image {
+        height: 300px;
+    }
+
+    .banner-left-text-heading {
+        font-size: 1.8em;
+
+    }
+
+    .banner-left-button {
+        gap: 15px;
+    }
+
+
+    .button-one {
+        width: 110px;
+        height: 40px;
+    }
+
+    .button-two {
+        width: 128px;
+        height: 40px;
+    }
+
+    .banner-left-text-para {
+        font-size: 2.8em;
+        font-weight: 700;
+    }
