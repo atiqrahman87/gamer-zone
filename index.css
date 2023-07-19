@@ -117,7 +117,7 @@ header {
 
 /*style for the gamer section*/
 .gamer {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     border: 2px solid green;
@@ -136,7 +136,6 @@ header {
     border: 2px solid green;
 
 }
-
 .gamer-section-heading {
     text-align: right;
     font-size: 2.2em;
@@ -152,7 +151,7 @@ header {
     text-align: right;
     font-size: 1em;
     font-weight: 400;
-    width: 430px;
+    width: 425px;
     height: 100px;
     border: 2px solid green;
 
@@ -188,11 +187,22 @@ header {
 
 
 
-/*style for the mobile device with a maximum width of 425px*/
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:425px) {
     header {
         width: 100%;
+        background-color:"none"
     }
 
     .navigation {
@@ -245,9 +255,8 @@ header {
         font-size: 2.8em;
         font-weight: 700;
     }
-}
 
-/*style for the gamer section*/
+
 .gamer {
     display: flex;
     flex-direction: column;
@@ -270,12 +279,17 @@ text-align: center;
 
 .gamer-section-text {
     width:355px;
-  
+}
 .gamer-section-para {
       
         font-size:0.9em;
         font-weight: 400;
         width: 352px;
+}
+.gamer-section-p2 {
+    font-size: 1.2em;
+    
+}
 }
 
 
@@ -287,10 +301,6 @@ text-align: center;
 
 
 
-
-
-/*style for the mobile device with a maximum width of 425px*/
-/*style for the banner section*/
 @media screen and (min-width:426px) and (max-width:768px){
     .banner {
         padding-bottom: 5px;
@@ -329,19 +339,27 @@ text-align: center;
 
     .gamer {
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         gap: 8px;
     }
 
     #gamer-section-image {
         height: 300px;
     }
-
-
+    
+.gamer-section-para,
 .gamer-section-text,
 .gamer-section-p1,
 .gamer-section-p2,
-.gamer-section-heading {
-    text-align: center;
+.gamer-section-heading{
+    text-align:center;
 }
 }
+
+
+
+
+
+
+
+
