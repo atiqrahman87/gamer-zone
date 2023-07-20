@@ -312,12 +312,7 @@ header {
     padding-bottom: 25px;
 }
 
-
-
-
-
-
-
+/*style for the mobile device*/
 
 @media screen and (max-width:425px) {
     header {
@@ -483,48 +478,9 @@ header {
         gap: 15px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /*style for the tab*/
 
 @media screen and (min-width:426px) and (max-width:768px) {
     .banner {
