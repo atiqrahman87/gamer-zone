@@ -223,6 +223,7 @@ font-weight: 400;
 padding-top:5px;
 }
 
+/*style for the play section*/
 
 
 
@@ -343,7 +344,36 @@ font-size:0.7em;
     height:340px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -417,6 +447,11 @@ font-size:0.7em;
     grid-template-columns:repeat(2,1fr);
     gap:25px;
 
+}
+
+.play-container{
+    flex-direction:column;
+    align-items:center;
 }
 
 }
