@@ -223,9 +223,44 @@ font-weight: 400;
 padding-top:5px;
 }
 
-/*style for the play section*/
+/*style for the logo section*/
+.logo-container{
+    
+    margin:35px auto 0 auto;
+    width:72%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
+    border-radius: 50px;
+    background: #FFF;
+    width: 180px;
+    height: 60px;
 
+}
 
+.first-half-logo{
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+    gap:8px;
+}
+.second-half-logo{
+    display:flex;
+    justify-content:center;
+}
+.logo-border{
+    border:2px solid #F948B2;
+}
+.logo-text{
+color: #0B0223;
+font-size:0.8em;
+font-weight: 600;
+
+}
 
 
 
@@ -344,8 +379,28 @@ font-size:0.7em;
     height:340px;
 }
 
+.logo-container{
+width:100%;
+}
 
 
+
+.first-half-logo{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    align-items:center;
+    margin-bottom:20px;
+    
+}
+.second-half-logo{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    
+    
+}
+.logo-border{
+border:none;
+}
 
 
 
@@ -453,6 +508,10 @@ font-size:0.7em;
     flex-direction:column;
     align-items:center;
 }
+
+.logo-border{
+    border:none;
+    }
 
 }
 
