@@ -228,6 +228,7 @@ padding-top:5px;
     
     margin:35px auto 0 auto;
     width:72%;
+    padding-bottom:60px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .logo{
@@ -259,10 +260,37 @@ padding-top:5px;
 color: #0B0223;
 font-size:0.8em;
 font-weight: 600;
-
 }
 
+/*footer section style*/
+.footer-container{
+    width:100%;
+    background-color:floralwhite;
+    padding-top:45px;
+}
 
+.menu, .company-logos,.policies, .footer-head{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    font-size:0.9em;
+
+}
+.company-logos{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.footer-paragraph{
+    text-align:center;
+    font-size:0.7em;
+    padding-top:25px;
+}
+.footer-head{
+padding-bottom:25px;
+}
+
+    
 
 
 
@@ -383,8 +411,6 @@ font-size:0.7em;
 width:100%;
 }
 
-
-
 .first-half-logo{
     display:grid;
     grid-template-columns:repeat(2,1fr);
@@ -401,6 +427,33 @@ width:100%;
 .logo-border{
 border:none;
 }
+/*style for the footer section*/
+.menu, .company-logos,.policies, .footer-head{
+    gap:0px;
+
+}
+.company-logos{
+
+}
+.menu, .policies{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    align-items:center;
+    text-align:center;
+    gap:15px;
+}
+.policies{
+    grid-template-columns:repeat(2,1fr);
+}
+.company-logos{
+    gap:15px;
+}
+
+
+
+
+
+
 
 
 
